@@ -86,3 +86,11 @@ nav {
     cursor: pointer;
     display: none;
   }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
