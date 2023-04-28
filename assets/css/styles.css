@@ -311,3 +311,7 @@ nav ul li {
     width: 3rem;
     height: 3rem;
   }
+  @media screen and (max-width: 720px) {
+    /* los cambios se reflejan en una pantalla con un ancho de 720px ye inferior */
+    
+  }
