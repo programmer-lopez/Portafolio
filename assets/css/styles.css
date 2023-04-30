@@ -238,18 +238,19 @@ nav ul li {
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
 }
+
 .contenedor-formulario-contacto label {
     line-height: 2.7em;
     font-weight: var(--bold-font);
     color: var(--primary-color);
-  }
-  
-  .contenedor-formulario-contacto textarea {
+}
+
+.contenedor-formulario-contacto textarea {
     min-height: 6.25rem;
     font-size: 14px;
-  }
-  
-  .contenedor-formulario-contacto .input-field {
+}
+
+.contenedor-formulario-contacto .input-field {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -258,12 +259,14 @@ nav ul li {
     border: 2px outset var(--primary-color);
     font-size: 0.875rem;
     outline: none;
-  }
-  .input-field::placeholder {
+}
+
+.input-field::placeholder {
     padding: 0.5rem;
     color: var(--primary-color);
-  }
-  .submit-btn {
+}
+
+.submit-btn {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -273,46 +276,113 @@ nav ul li {
     font-size: 1rem;
     font-weight: var(--bold-font);
     transition: var(--transition);
-  }
-  .submit-btn:hover {
+}
+
+.submit-btn:hover {
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     cursor: pointer;
-  }
-  /*section redes sociales*/
-  .sociales {
+}
+
+/*section redes sociales*/
+.sociales {
     display: flex;
     flex-direction: column;
     position: fixed;
     right: 1%;
     bottom: 50%;
-  }
-  
-  .socicon {
+}
+
+.socicon {
     width: 2rem;
     height: 2rem;
-  }
-  /*Footer*/
-  footer {
+}
+
+/*Footer*/
+footer {
     background-color: var(--bg-color);
     padding: 1.25rem;
     text-align: center;
     margin: 2rem 0 0;
-  }
-  
-  /*Desplazamiento arriba*/
-  .desplazarse-hacia-arriba {
+}
+
+/*Desplazamiento arriba*/
+.desplazarse-hacia-arriba {
     position: fixed;
     right: 0.5%;
     bottom: 3%;
     cursor: pointer;
-  }
-  
-  .flecha-arriba {
+}
+
+.flecha-arriba {
     width: 3rem;
     height: 3rem;
-  }
-  @media screen and (max-width: 720px) {
+}
+
+@media screen and (max-width: 720px) {
+
     /* los cambios se reflejan en una pantalla con un ancho de 720px ye inferior */
-    
+    .hero {
+        margin-top: -4rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero img {
+        height: 37.5rem;
+        width: 30rem;
+    }
+
+    .hero-bio {
+        margin-top: -7rem;
+        width: 20.5rem;
+    }
+
+    /*section más sobre mi */
+    .mas-sobre {
+        margin-top: 2rem;
+        padding: 1rem 3.5rem;
+    }
+
+    .mas-sobre h2 {
+        text-align: center;
+    }
+
+    .mas-sobre p {
+        text-align: justify;
+    }
+    /*section Habildades */
+    .icono {
+        width: 5.875rem;
+        height: 5.25rem;
+      }
+      /*section Proyectos */
+      .contenedor-de-proyectos {
+        flex-direction: column;
+      }
+      .contenedor-de-proyecto {
+        width: 20.875rem;
+      }
+      /*section Contacto */     
+      .contenedor-formulario-contacto {
+        max-width: 23.75rem;
+      }
+}
+@media screen and (max-width: 420px) {
+    .hero img {
+      height: 37.5rem;
+      width: 23rem;
+    }
+  
+    .hero-bio {
+      width: 18.3rem;
+    }
+  
+    .contenedor-de-proyecto {
+      width: 17.875rem;
+    }
+  
+    .contenedor-formulario-contacto{
+      max-width: 17.75rem;
+    }
   }
