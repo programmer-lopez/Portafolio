@@ -1,6 +1,7 @@
 import type { LinksFunction } from "@remix-run/node";
 
 import stylesUrl from "~/routes/styles/syled.css";
+import perfil from "../../public/img/Junior.svg"
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -9,7 +10,12 @@ export const links: LinksFunction = () => [
 export default function IndexRoute() {
   return (
     <section className="hero" id="hero">
-    <img src="assets/images/Junior.svg" alt="Marcos-Lopez" loading="lazy" className="hero-img" />
+    <img 
+    src={perfil}
+    alt="Marcos-Lopez" 
+    loading="lazy" 
+    className="hero-img" 
+    />
     <div className="hero-bio animate__animated animate__shakeX">
       <h2 className="hero-bio-titulo">Sobre Mí</h2>
       <p className="hero-bio-texto">
