@@ -1,0 +1,10 @@
+.portafolio-layout{
+    display: flex;
+    flex-direction: column;
+    min-height: inherit;
+}
+.portafolio-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+}

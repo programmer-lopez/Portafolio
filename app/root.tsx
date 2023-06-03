@@ -32,7 +32,7 @@ export default function App() {
           name="viewport"
           content="width=device-width,initial-scale=1"
         />
-        <title>Portafolio</title>
+        <title>Portafolio1</title>
         <Links/>
       </head>
       <body>

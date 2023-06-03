@@ -1,19 +1,38 @@
+:root {
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #34b298;
+  --secondary-color: #1f6456;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --color-background: #34B298;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+  --font-body: -apple-system, "Segoe UI", Helvetica Neue, Helvetica, Roboto,
+    Arial, sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-display: var(--font-body);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  color: var(--color-foreground);
+  color: var(--primary-color);
   background-color: var(--color-background);
 }
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    background-color: var(--color-border);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  h1,
+  display: block;
+  height: 1px;
+  border: 0;
+  background-color: var(--color-border);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+h1,
 h2,
 h3,
 h4,
