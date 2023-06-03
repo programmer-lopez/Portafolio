@@ -1,7 +1,7 @@
 import type { LinksFunction } from "@remix-run/node";
+import { Link } from "@remix-run/react";
 
-import stylesUrl from "~/routes/styles/syled.css";
-import perfil from "../../public/img/Junior.svg"
+import stylesUrl from "~/styles/index.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -9,24 +9,22 @@ export const links: LinksFunction = () => [
 
 export default function IndexRoute() {
   return (
-    <section className="hero" id="hero">
-    <img 
-    src={perfil}
-    alt="Marcos-Lopez" 
-    loading="lazy" 
-    className="hero-img" 
-    />
-    <div className="hero-bio animate__animated animate__shakeX">
-      <h2 className="hero-bio-titulo">Sobre Mí</h2>
-      <p className="hero-bio-texto">
-        Soy una persona capaz de trabajar en equipo aportando ideas, debido a mi experiencia
-        como Operador de Recepción Digital era necesario la comunicación entre departamento
-        para ser eficaz también ser multitarea manteniéndome en comunicación con mi equipo,
-        debido a ser un aprendiz proactivo me he dado a la tarea de esforzarme en aprender
-        para mejorar constantemente.
-      </p>
+    <div className="container">
+    <div className="content">
+      <h1>
+        portafolio <span>Jokes!</span>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <Link to="portafolio">Marcos Lopez</Link>
+          </li>
+          <li>
+            <Link to="portafolio">CV.pdf</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
-  </section>
-  )
-  ;
+  </div>
+  );
 }

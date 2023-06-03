@@ -1,3 +1,4 @@
+
 export default function NewJokeRoute() {
     return (
       <div>
