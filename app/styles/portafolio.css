@@ -1,0 +1,24 @@
+.container img {
+  width: 100px;
+  height: auto;
+  margin-left: 35px;
+}
+.portafolio-header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.portafolio-main {
+  display: flex;
+  margin-left: 35px;
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
+  flex: 1 1 100%;
+}
+.portafolio-outlet {
+  margin-left: 10rem;
+}

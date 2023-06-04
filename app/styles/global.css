@@ -3,11 +3,13 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
+  --color-text: #0d1117;
   --primary-color: #34b298;
   --secondary-color: #1f6456;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --color-background: #34B298;
+  --color-border: hsl(210, 1%, 69%);;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -21,7 +23,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  color: var(--primary-color);
+  color: var(--color-text);
   background-color: var(--color-background);
 }
 hr {
@@ -32,6 +34,31 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+body {
+  font-family: var(--font-display);
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-height: calc(100vh - env(safe-area-inset-bottom));
+}
+a {
+  color: var(--color-links);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-links-hover);
+  text-decoration: underline;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  background-color: var(--color-text);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 h1,
 h2,
 h3,
