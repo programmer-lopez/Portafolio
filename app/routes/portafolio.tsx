@@ -1,6 +1,5 @@
 import type { LinksFunction } from "@remix-run/node";
-import { Outlet } from "@remix-run/react";
-import { Link } from "@remix-run/react";
+import { Link, Outlet } from "@remix-run/react";
 
 import stylesUrl from "~/styles/portafolio.css";
 import portafolio from "../../public/svg/icon-portafolio.svg";
@@ -9,14 +8,19 @@ export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
 ];
 
-export default function JokesRoute() {
+export default function PortafoliosRoute() {
   return (
     <div className="portafolio-layout">
       <header className="portafolio-header">
         <div className="container">
-          <img src={portafolio} alt="Portafolio" className="portafolio-logo" />
+          <img 
+          src={portafolio} 
+          alt="Portafolio" 
+          className="portafolio-logo"
+           />
           <h2 className="home-link">
-            <Link to="/" title="Remix Jokes" aria-label="Remix Jokes">
+            <Link to="/"
+             title="Portafolio" aria-label="Remix Portafolio">
               <span 
               className="logo-medium">Developer
               </span>
@@ -29,16 +33,16 @@ export default function JokesRoute() {
           <div className="portafolio-list">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="portafolio">Portafolio</Link>
               </li>
               <li>
-                <Link to="/">About</Link>
+                <Link to="about">About</Link>
               </li>
               <li>
-                <Link to="/">Experiencia</Link>
+                <Link to="experiencia">Experiencia</Link>
               </li>
               <li>
-                <Link to="/">Contacto </Link>
+                <Link to="contacto">Contacto </Link>
               </li>
             </ul>
           </div>
