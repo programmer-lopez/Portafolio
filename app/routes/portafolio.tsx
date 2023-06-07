@@ -33,7 +33,7 @@ export default function PortafoliosRoute() {
           <div className="portafolio-list">
             <ul>
               <li>
-                <Link to="portafolio">Portafolio</Link>
+                <Link to=".">Portafolio</Link>
               </li>
               <li>
                 <Link to="about">About</Link>
