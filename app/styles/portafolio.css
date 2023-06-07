@@ -1,3 +1,6 @@
+.portafolio-header{
+  background-color: var(--bg-color);
+}
 .container img {
   width: 40px;
   height: auto;
@@ -21,4 +24,7 @@
 }
 .portafolio-outlet {
   margin-left: 10rem;
+}
+ul{
+  list-style: none;
 }

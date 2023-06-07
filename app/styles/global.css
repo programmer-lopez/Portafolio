@@ -50,15 +50,6 @@ a:hover {
   color: var(--color-links-hover);
   text-decoration: underline;
 }
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  background-color: var(--color-text);
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 h1,
 h2,
 h3,
