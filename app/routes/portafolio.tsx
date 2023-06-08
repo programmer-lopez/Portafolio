@@ -22,7 +22,7 @@ export default function PortafoliosRoute() {
             <Link to="/"
              title="Portafolio" aria-label="Remix Portafolio">
               <span 
-              className="logo-medium">Developer
+              className="logo-medium">Developer with TypesScript
               </span>
             </Link>
           </h2>

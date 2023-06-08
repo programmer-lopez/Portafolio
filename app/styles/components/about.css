@@ -1,0 +1,6 @@
+div .color{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    border: 1px solid red;
+}
