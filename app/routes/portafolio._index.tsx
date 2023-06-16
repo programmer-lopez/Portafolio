@@ -1,12 +1,21 @@
+import { LinksFunction } from "@remix-run/node";
+import Me from "../../public/img/about.jpg";
+import stylesUrl from "~/styles/index.css";
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: stylesUrl },
+];
+
 export default function PortafolioIndexRoute() {
   return (
     <div>
-      <p>Here's a random joke: </p>
-      <p>PortafolioIndexRoute</p>
+      <h3>Hola, Me llamo Marcos Lopez Sanchez</h3>
+      <h4>Desarrollador de Software</h4>
       <p>
-        I was wondering why the frisbee was getting bigger,
-        then it hit me Marcoslopezsanchez.
+        Aspiro como Desarrollador de software, experiencia en React.tsx como
+        Junior Developer.
       </p>
+      <img src={Me} alt="Acerca-de-Mi" />
     </div>
   );
 }

@@ -1,0 +1,6 @@
+.about-container img {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    border: 1px solid red;
+  }
