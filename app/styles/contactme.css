@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    grid-gap: 32px;
+    position: relative;
+    z-index: 1;
+  }
+  h4 {
+    z-index: 2;
+    position: relative;
+    margin: 12px 0 4px 0;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2;
+    color: green;
+    border: 1px solid red;
+  }
+
+  p {
+    z-index: 2;
+    position: relative;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: red;
+    border: 1px solid red;
+  }
+  
