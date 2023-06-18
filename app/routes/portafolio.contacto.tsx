@@ -1,13 +1,11 @@
-
-
 export default function ContactoPortafolioRoute() {
     return (
-      <main>
-        <ul>
-          <li><a href="#">Hola</a></li>   
-                
-          <li><a href="#">hoy</a></li>
-        </ul>
-      </main>
+      <div className="grid">
+        <div className="card">
+      <h4>Informacion</h4>
+      <p>Standard chunk of Lorem Ipsum used since the 1500s is showed below
+      for those interested.</p>
+        </div>
+      </div>
     );
   }
