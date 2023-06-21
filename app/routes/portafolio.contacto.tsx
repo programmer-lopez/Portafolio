@@ -1,8 +1,4 @@
 
-export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: stylesUrl },
-];
-
 export default function ContactoPortafolioRoute() {
     return (
       <main>
