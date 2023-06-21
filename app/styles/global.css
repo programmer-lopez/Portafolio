@@ -1,9 +1,12 @@
 :root {
+  --perfile: #1e2a3a;
+  --main-wrapper: #111821;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
   --blanco: #fcfcfc;
-  --color-text: #0d1117;
+  --color-text1: #0d1117;
+  --color-text2: #ffff;
   --primary-color: #34b298;
   --secondary-color: #1f6456;
   --primary-shadow: #8b8eaf;

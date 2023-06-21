@@ -29,7 +29,7 @@ export default function PortafoliosRoute() {
         </div>
       </header>
       <main className="portafolio-main">
-        <div className="container">
+        <div className="portafolio__container-perfile">
           <div className="portafolio-list">
             <ul>
               <li>

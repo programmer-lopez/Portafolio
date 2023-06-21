@@ -1,4 +1,11 @@
-.portafolio-header{
+.portafolio__container-perfile {
+  background-color: var(--perfile);
+  color: var(--color-text2);
+  text-align: left;
+  border: 1px solid red;
+}
+
+.portafolio-header {
   background-color: var(--bg-color);
 }
 .container img {
@@ -19,12 +26,12 @@
   display: flex;
   margin-left: 35px;
   padding-top: 2rem;
-  padding-bottom: 2rem; 
+  padding-bottom: 2rem;
   flex: 1 1 100%;
 }
 .portafolio-outlet {
   margin-left: 10rem;
 }
-ul{
+ul {
   list-style: none;
 }
