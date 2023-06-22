@@ -3,6 +3,12 @@
   color: var(--color-text2);
   text-align: left;
   border: 1px solid red;
+  position: fixed;
+  height: 100vh;
+  width: 280px;
+}
+.portafolio-perfile h5{
+  text-align: center;
 }
 
 .portafolio-header {
