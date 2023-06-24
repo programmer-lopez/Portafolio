@@ -3,11 +3,11 @@
   color: var(--color-text2);
   text-align: left;
   border: 1px solid red;
-  position: fixed;
+  position: relative;
   height: 100vh;
   width: 280px;
 }
-.portafolio-perfile h5{
+.portafolio-perfile h5 {
   text-align: center;
 }
 
@@ -40,4 +40,7 @@
 }
 ul {
   list-style: none;
+  position: absolute;
+  left: 10px;
+  top: 20px;
 }

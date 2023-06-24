@@ -1,9 +1,5 @@
-import type { LinksFunction } from "@remix-run/node";
-import { 
-  LiveReload, 
-  Outlet,
-  Links,
-} from "@remix-run/react";
+import type { LinksFunction, V2_MetaFunction } from "@remix-run/node";
+import { LiveReload, Outlet, Links, Meta } from "@remix-run/react";
 
 import globalLargeStylesUrl from "~/styles/global-large.css";
 import globalMediumStylesUrl from "~/styles/global-medium.css";
@@ -23,20 +19,25 @@ export const links: LinksFunction = () => [
   },
 ];
 
+export const meta: V2_MetaFunction = () => {
+  return [
+    {
+      charset: "utf-8",
+      title: "Portafolio",
+      viewport: "width=device-width, initial-scale=1",
+    },
+  ];
+};
+
 export default function App() {
   return (
     <html lang="en">
       <head>
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1"
-        />
-        <title>Portafolio</title>
-        <Links/>
+        <Meta />
+        <Links />
       </head>
       <body>
-        <Outlet/>
+        <Outlet />
         <LiveReload />
       </body>
     </html>

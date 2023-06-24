@@ -1,5 +1,5 @@
 import type { LinksFunction } from "@remix-run/node";
-import { Link, Outlet } from "@remix-run/react";
+import { Link, Links, Outlet } from "@remix-run/react";
 
 import stylesUrl from "~/styles/portafolio.css";
 import portafolio from "../../public/svg/icon-portafolio.svg";
@@ -23,25 +23,7 @@ export default function PortafoliosRoute() {
       </header>
       <main className="portafolio-main">
         <div className="portafolio__container-perfile">
-          <div className="portafolio-list">
-            <div className="portafolio-perfile">
-             <h5>Marcos Lopez</h5> 
-              <ul>
-                <li>
-                  <Link to=".">Portafolio</Link>
-                </li>
-                <li>
-                  <Link to="about">About</Link>
-                </li>
-                <li>
-                  <Link to="experiencia">Experiencia</Link>
-                </li>
-                <li>
-                  <Link to="contacto">Contacto </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
+         <Links/>
         </div>
         <div className="portafolio-outlet">
           <Outlet />
