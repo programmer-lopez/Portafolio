@@ -3,10 +3,12 @@ import { Link, Outlet } from "@remix-run/react";
 
 import stylesUrl from "./styles/portafolio.css";
 import portafolio from "../../public/svg/icon-portafolio.svg";
+import navigationstylesUrl from "~/stylesGlobal/navigation.css"
 import Me from "../../public/img/about.jpg";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
+  { rel: "stylesheet", href: navigationstylesUrl },
 ];
 
 export default function PortafolioRoute() {
