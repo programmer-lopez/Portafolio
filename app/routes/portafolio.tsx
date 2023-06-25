@@ -1,7 +1,7 @@
 import type { LinksFunction } from "@remix-run/node";
 import { Link, Outlet } from "@remix-run/react";
 
-import stylesUrl from "~/styles/portafolio.css";
+import stylesUrl from "./styles/portafolio.css";
 import portafolio from "../../public/svg/icon-portafolio.svg";
 import Me from "../../public/img/about.jpg";
 

@@ -1,6 +1,6 @@
 import experiencia from "../../public/img/React.png";
 import { LinksFunction } from "@remix-run/node";
-import stylesUrl from "~/styles/experiencia.css";
+import stylesUrl from "./styles/experiencia.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },

@@ -1,6 +1,6 @@
 import { LinksFunction } from "@remix-run/node";
 import Me from "../../public/img/about.jpg";
-import stylesUrl from "~/styles/index.css";
+import stylesUrl from "./styles/index.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
