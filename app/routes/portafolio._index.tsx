@@ -8,7 +8,7 @@ export const links: LinksFunction = () => [
 
 export default function PortafolioIndexRoute() {
   return (
-    <div>
+    <div className="portafolio_acerca">
       <h3>Hola, Me llamo Marcos Lopez Sanchez</h3>
       <h4>Desarrollador de Software</h4>
       <p>

@@ -21,7 +21,9 @@
     Arial, sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji";
   --font-display: var(--font-body);
 }
-
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;

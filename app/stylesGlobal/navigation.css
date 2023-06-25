@@ -1,0 +1,35 @@
+/*container perfile */
+.portafolio-main {
+    display: flex;
+    margin-left: 35px;
+    padding-top: 2rem;
+  }
+  .portafolio-perfile {
+    color: var(--color-text2);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 106px;
+    left: 0;
+    background-color: var(--perfile);
+    overflow-x: hidden;
+  }
+  .portafolio-perfile img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+  }
+  .portafolio-perfile-h5 {
+    text-align: center;
+    background-color: var(--main-wrapper);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  ul {
+    list-style: none;
+    position: relative;
+  }
+  
