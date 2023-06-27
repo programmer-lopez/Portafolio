@@ -8,10 +8,11 @@
   --color-text1: #0d1117;
   --color-text2: #ffff;
   --primary-color: #34b298;
+  --color-background: #34B298;
   --secondary-color: #1f6456;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
-  --color-background: #34B298;
+  --color-nav: hsl(168, 40%, 42%);
   --color-border: hsl(210, 1%, 69%);;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
