@@ -16,10 +16,10 @@ export default function IndexRoute() {
         </h1>
         <nav>
           <ul>
-            <li>
+            <li className="row">
               <Link to="portafolio">Marcos Lopez</Link>
             </li>
-            <li>
+            <li className="row">
               <Link to="portafolio">CV.pdf</Link>
             </li>
           </ul>

@@ -41,9 +41,16 @@
   }
 }
 ul {
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
   list-style: none;
   position: relative;
   z-index: 1; 
+  
+}
+ul .row{
+  padding: 10px;
 }
 h1 span {
   position: relative;
