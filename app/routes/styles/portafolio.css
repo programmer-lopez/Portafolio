@@ -1,4 +1,9 @@
 /*imagen inicial and developer*/
+.portafolio-main {
+  display:flexbox;
+  margin-left: 35px;
+  padding-top: 5rem;
+}
 .container img {
   width: 40px;
   height: auto;

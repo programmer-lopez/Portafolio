@@ -1,9 +1,4 @@
 /*container perfile */
-.portafolio-main {
-  display: flex;
-  margin-left: 35px;
-  padding-top: 2rem;
-}
 .portafolio-perfile {
   color: var(--color-text2);
   height: 100%;

@@ -1,0 +1,47 @@
+.container {
+  min-height: inherit;
+}
+.container,
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.content::before {
+  content: "";
+  background-image: conic-gradient(#ff0052 20deg, transparent 120deg);
+  width: 400%;
+  height: 300%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+}
+.content::after {
+  content: "";
+  width: 98%;
+  height: 95%;
+  background: #101010;
+  position: absolute;
+  border-radius: 10px;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+ul {
+  list-style: none;
+}
+h1 span {
+  font-size: 8rem;
+}

@@ -1,7 +1,7 @@
 import type { LinksFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 
-import stylesUrl from "./styles/index.css";
+import stylesUrl from "./styles/local.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -12,7 +12,7 @@ export default function IndexRoute() {
     <div className="container">
       <div className="content">
         <h1>
-          portafolio <span>Jokes!</span>
+           <span>Portafolio</span>
         </h1>
         <nav>
           <ul>
