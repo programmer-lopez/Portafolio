@@ -1,7 +1,11 @@
 .container {
   min-height: inherit;
 }
-.container,
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -14,21 +18,24 @@
   overflow: hidden;
   display: flex;
   align-items: center;
-  
 }
 .content::before {
   content: "";
-  background-image: conic-gradient(#ff0052 20deg, transparent 120deg);
-  width: 400%;
-  height: 300%;
+  background-image: conic-gradient(
+    var(--main-wrapper) 20deg,
+    transparent 120deg
+  );
+  width: 150%;
+  height: 800%;
   position: absolute;
   animation: rotate 2s linear infinite;
 }
 .content::after {
   content: "";
+  font-size: 8rem;
   width: 98%;
   height: 95%;
-  background: #101010;
+  background: var(--main-wrapper);
   position: absolute;
   border-radius: 10px;
 }
@@ -46,14 +53,38 @@ ul {
   padding: 1px;
   list-style: none;
   position: relative;
-  z-index: 1; 
-  
+  z-index: 1;
 }
-ul .row{
+button {
+  position: relative;
+  width: 110px;
+  padding: 15px 0;
+  background: transparent;
+  color: white;
+  border: 1px solid var(--color-nav);
+  cursor: pointer;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+ul span {
+  background: var(--color-nav);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span {
+  width: 100%;
+}
+ul .row {
   padding: 10px;
 }
 h1 span {
   position: relative;
   font-size: 8rem;
-  z-index: 1; 
+  margin: 15px;
+  z-index: 1;
 }

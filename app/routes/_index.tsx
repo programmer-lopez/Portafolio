@@ -12,15 +12,15 @@ export default function IndexRoute() {
     <div className="container">
       <div className="content">
         <h1>
-           <span>Portafolio</span>
+           <span>Marcos Lopez.</span>
         </h1>
-        <nav>
+        <nav className="content-hover">
           <ul>
-            <li className="row">
-              <Link to="portafolio">Marcos Lopez</Link>
+            <li className="row hover">
+              <Link to="portafolio"><button><span></span>Portafolio</button></Link>
             </li>
-            <li className="row">
-              <Link to="portafolio">CV.pdf</Link>
+            <li className="row hover">
+              <Link to="portafolio"><button><span></span>CV.pdf</button></Link>
             </li>
           </ul>
         </nav>
