@@ -14,6 +14,7 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  
 }
 .content::before {
   content: "";
@@ -41,7 +42,11 @@
 }
 ul {
   list-style: none;
+  position: relative;
+  z-index: 1; 
 }
 h1 span {
+  position: relative;
   font-size: 8rem;
+  z-index: 1; 
 }
