@@ -26,9 +26,6 @@
 .portafolio__links{
   list-style: none;
   position: relative;
-  transition: color 0.15s ease-in-out,
-   background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out;
 }
 p {
   text-align: center;
