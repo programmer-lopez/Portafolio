@@ -22,5 +22,9 @@
 }
 /*Portafolio Outlet*/
 .portafolio-outlet {
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16rem;
+  padding-top: 3rem;
+  padding-right: 4rem;
 }
