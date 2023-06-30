@@ -4,12 +4,12 @@
   margin-left: 35px;
   padding-top: 5rem;
 }
-.container img {
+.portafolio__container-logo img {
   width: 40px;
   height: auto;
   margin-left: 35px;
 }
-.container {
+.portafolio__container-logo {
   display: flex;
   align-items: center;
   position: fixed;

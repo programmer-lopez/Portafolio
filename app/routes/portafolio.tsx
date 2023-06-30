@@ -3,7 +3,7 @@ import { Link, Outlet } from "@remix-run/react";
 
 import stylesUrl from "./styles/portafolio.css";
 import portafolio from "../../public/svg/icon-portafolio.svg";
-import navigationstylesUrl from "~/stylesGlobal/navigation.css"
+import navigationstylesUrl from "~/stylesGlobal/navigation.css";
 import Me from "../../public/img/about.jpg";
 
 export const links: LinksFunction = () => [
@@ -15,11 +15,11 @@ export default function PortafolioRoute() {
   return (
     <div className="portafolio-layout">
       <header className="portafolio-header">
-        <div className="container">
+        <div className="portafolio__container-logo">
           <img src={portafolio} alt="Portafolio" className="portafolio-logo" />
           <h2 className="home-link">
             <Link to="/" title="Portafolio" aria-label="Remix Portafolio">
-              <span className="logo-medium">Developer with TypesScript</span>
+              <span className="logo-medium">Developer with Remix Tsx</span>
             </Link>
           </h2>
         </div>
@@ -29,12 +29,17 @@ export default function PortafolioRoute() {
           <div className="portafolio-perfile">
             <img src={Me} alt="Acerca-de-Mi" />
             <h5 className="portafolio-perfile-h5">Marcos Lopez</h5>
-            <ul>
+            <p>
+              Soy ingeniero en sistemas computacionales, enfocado en Desarrollo
+              de Software.<br/>
+              <span>Junior Developer</span>
+            </p>
+            <ul className="portafolio__links">
               <li>
                 <Link to=".">Portafolio</Link>
               </li>
               <li>
-                <Link to="about">About</Link>
+                <Link to="about">Acerca</Link>
               </li>
               <li>
                 <Link to="experiencia">Experiencia</Link>
