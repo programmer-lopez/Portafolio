@@ -1,18 +1,25 @@
-
+.perfile-image {
+  height:75vh;
+  width: auto;
+}
+.portafolio__acerca_info{
+  display: flex;
+}
 h3 {
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-border);
 }
-h4{
-    text-align: center;
-    padding-top: 1rem;
+h4 {
+  text-align: center;
+  padding-top: 1rem;
 }
-p{
-    text-align: center;
+p {
+  text-align: center;
+  color: green;
 }
-.portafolio_acerca img {
-    display: block;
-    width: 10%;
-    margin: auto;
-    border-radius: 50%;
-  }
+.acerca-de-mi {
+  display: flex;
+  width: 10%;
+  margin: auto;
+  border-radius: 50%;
+}
