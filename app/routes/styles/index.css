@@ -1,4 +1,4 @@
-.perfile-image {
+.perfile-img {
   height:75vh;
   width: auto;
 }
@@ -13,7 +13,7 @@ h4 {
   text-align: center;
   padding-top: 1rem;
 }
-p {
+.portafolio__acerca_info p{
   text-align: center;
   color: green;
 }

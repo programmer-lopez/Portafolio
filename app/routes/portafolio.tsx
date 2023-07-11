@@ -19,7 +19,7 @@ export default function PortafolioRoute() {
           <img src={portafolio} alt="Portafolio" className="portafolio-logo" />
           <h2 className="home-link">
             <Link to="/" title="Portafolio" aria-label="Remix Portafolio">
-              <span className="logo-medium">Developer with Remix Tsx</span>
+              <span className="logo-medium">Developed with Remix Tsx</span>
             </Link>
           </h2>
         </div>
@@ -31,21 +31,38 @@ export default function PortafolioRoute() {
             <h5 className="portafolio-perfile-h5">Marcos Lopez</h5>
             <p>
               Soy ingeniero en sistemas computacionales, enfocado en Desarrollo
-              de Software.<br/>
+              de Software.
+              <br />
               <span>Junior Developer</span>
             </p>
             <ul className="portafolio__links">
-              <li>
-                <Link to=".">Portafolio</Link>
+              <li className="column hover">
+                <Link to=".">
+                  <button>
+                    <span></span>Portafolio
+                  </button>
+                </Link>
               </li>
               <li>
-                <Link to="about">Acerca</Link>
+                <Link to="about">
+                  <button>
+                    <span></span>Acerca
+                  </button>
+                </Link>
               </li>
               <li>
-                <Link to="experiencia">Experiencia</Link>
+                <Link to="experiencia">
+                  <button>
+                    <span></span>Experiencia
+                  </button>
+                </Link>
               </li>
               <li>
-                <Link to="contacto">Contacto </Link>
+                <Link to="contacto">
+                  <button>
+                    <span></span>Contacto
+                  </button>
+                </Link>
               </li>
             </ul>
           </div>

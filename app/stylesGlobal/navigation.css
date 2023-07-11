@@ -2,7 +2,7 @@
 .portafolio-perfile {
   color: var(--color-text2);
   height: 100%;
-  width: 200px;
+  width: 350px;
   position: fixed;
   z-index: 1;
   top: 73px;
@@ -22,15 +22,57 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-border);
+  font-size: 1.875em;
 }
-.portafolio__links{
+.portafolio-perfile p {
+  color: var(--color-text2);
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.portafolio__links {
   list-style: none;
   position: relative;
+  padding-left: 1.898em;
+  padding-right: 1em;
+  font-size: 1.875em;
 }
-p {
-  text-align: center;
-}
+
 p span {
   color: var(--primary-color);
   font-weight: bold;
+}
+
+ul {
+  padding: 1px;
+  list-style: none;
+  z-index: 1;
+}
+button {
+  position: relative;
+  width: 210px;
+  padding: 15px 0;
+  background: transparent;
+  color: white;
+  border: 1px solid var(--color-nav);
+  cursor: pointer;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+ul span {
+  background: var(--color-nav);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span {
+  width: 100%;
+}
+li {
+  padding: 10px;
+  list-style: none;
 }

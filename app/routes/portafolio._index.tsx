@@ -12,7 +12,7 @@ export default function PortafolioIndexRoute() {
     <div className="portafolio_acerca">
       <section id="portafolio_index">
         <div className="section-developer">
-          <img className="perfile-image" src={perfile} alt="Marcos_Lopez" />
+          <img className="perfile-img" src={perfile} alt="Marcos_Lopez" />
           <h3>Hola, Me llamo Marcos Lopez Sanchez</h3>
           <div className="portafolio__acerca_info">
             <h4>Desarrollador de Software</h4>
