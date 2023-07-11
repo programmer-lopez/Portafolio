@@ -1,0 +1,23 @@
+.perfile-img {
+  height: 75vh;
+  width: auto;
+}
+.section-developer {
+  display: flex;
+}
+.portafolio__acerca_info {
+  border: 1px solid red;
+}
+h3 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.portafolio__acerca_info p {
+  text-align: center;
+  color: var(--color-text1);
+  border-bottom: 1px solid var(--color-border);
+}

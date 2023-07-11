@@ -1,7 +1,6 @@
 import { LinksFunction } from "@remix-run/node";
-import Me from "../../public/img/about.jpg";
 import perfile from "../../public/img/perfile.png";
-import stylesUrl from "./styles/index.css";
+import stylesUrl from "./styles/portaIndex.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -13,14 +12,13 @@ export default function PortafolioIndexRoute() {
       <section id="portafolio_index">
         <div className="section-developer">
           <img className="perfile-img" src={perfile} alt="Marcos_Lopez" />
-          <h3>Hola, Me llamo Marcos Lopez Sanchez</h3>
           <div className="portafolio__acerca_info">
+            <h3>Ingeniero: Marcos Lopez Sanchez</h3>
             <h4>Desarrollador de Software</h4>
-            <p>
-              Aspiro como Desarrollador de software, experiencia en React.tsx
-              como Junior Developer.
-            </p>
-            <img className="acerca-de-mi" src={Me} alt="Acerca-de-Mi" />
+            <p>Aspiro como Desarrollador de software</p>
+            <p>Experiencia en React, java, Spring Boot, Mongo DB </p>
+            <h3>Habilidades</h3>
+            <p>La experiencia obtenida es por el aprendizaje autodidacta con ayuda de las tecnología de la informacion.</p>
           </div>
         </div>
       </section>
