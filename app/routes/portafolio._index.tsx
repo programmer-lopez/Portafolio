@@ -14,7 +14,8 @@ export default function PortafolioIndexRoute() {
           <img className="perfile-img" src={perfile} alt="Marcos_Lopez" />
           <div className="portafolio__acerca_info">
             <h1>Ingeniero: Marcos Lopez Sanchez</h1>
-            <h2>Desarrollador de Software</h2><hr/>
+            <h2>Desarrollador de Software</h2>
+            <p></p>
             <h3>Habilidades</h3>
             <p>
               Experiencia en React, java, Spring Boot, Mongo DB <br />
