@@ -40,7 +40,7 @@ span.logo-medium {
   width: 350px;
   position: fixed;
   z-index: 1;
-  top: 73px;
+  top: 85px;
   left: 0;
   background-color: var(--perfile);
   overflow-x: hidden;

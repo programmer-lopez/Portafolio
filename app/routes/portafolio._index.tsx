@@ -13,12 +13,22 @@ export default function PortafolioIndexRoute() {
         <div className="section-developer">
           <img className="perfile-img" src={perfile} alt="Marcos_Lopez" />
           <div className="portafolio__acerca_info">
-            <h3>Ingeniero: Marcos Lopez Sanchez</h3>
-            <h4>Desarrollador de Software</h4>
-            <p>Aspiro como Desarrollador de software</p>
-            <p>Experiencia en React, java, Spring Boot, Mongo DB </p>
+            <h1>Ingeniero: Marcos Lopez Sanchez</h1>
+            <h2>Desarrollador de Software</h2><hr/>
             <h3>Habilidades</h3>
-            <p>La experiencia obtenida es por el aprendizaje autodidacta con ayuda de las tecnología de la informacion.</p>
+            <p>
+              Experiencia en React, java, Spring Boot, Mongo DB <br />
+              La experiencia obtenida es por el aprendizaje autodidacta con
+              ayuda de las tecnología de la informacion.
+            </p>
+            <h3>Disponibilidad y compromiso </h3>
+            <p>
+              Cuento con toda la disponibilidad de esfuerzo, dedicación y
+              tiempo. Enfrento situaciones poco comunes, bajo presión
+              desarrollando habilidades tanto responsabilidad para un
+              crecimiento propio, con una curva de aprendizaje en base a mi
+              experiencia.
+            </p>
           </div>
         </div>
       </section>

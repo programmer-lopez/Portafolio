@@ -6,15 +6,24 @@
   display: flex;
 }
 .portafolio__acerca_info {
-  border: 1px solid red;
+  padding-left: 2rem;
+}
+h1 {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 45px;
 }
 h3 {
   padding-bottom: 1rem;
   text-align: center;
+  font-size: 35px;
 }
-h4 {
-  text-align: center;
-  padding-top: 1rem;
+p {
+  font-size: 25px;
 }
 .portafolio__acerca_info p {
   text-align: center;
