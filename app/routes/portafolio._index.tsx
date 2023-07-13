@@ -1,6 +1,7 @@
 import { LinksFunction } from "@remix-run/node";
 import perfile from "../../public/img/perfile.png";
 import stylesUrl from "./styles/portaIndex.css";
+import { FaReact,FaJava,FaFileCode, FaMdb} from "react-icons/fa6";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -18,7 +19,7 @@ export default function PortafolioIndexRoute() {
             <p></p>
             <h3>Habilidades</h3>
             <p>
-              Experiencia en React, java, Spring Boot, Mongo DB <br />
+              Experiencia en <FaReact/>React, <FaJava/>java, <FaFileCode/>Spring Boot,<FaMdb/> Mongo DB <br />
               La experiencia obtenida es por el aprendizaje autodidacta con
               ayuda de las tecnología de la informacion.
             </p>

@@ -1,20 +1,20 @@
 /*Developed with Remix Tsx*/
 /*imagen inicial and developer*/
 .portafolio-main {
-  display:flex;
+  display: flex;
   margin-left: 10rem;
   padding-top: 5rem;
 }
 .portafolio__container-logo img {
   width: 40px;
   height: auto;
-  margin-left: 35px;
+  margin-left: 30px;
 }
 .portafolio__container-logo {
   display: flex;
   align-items: center;
   position: fixed;
-  background-color:var(--color-nav);
+  background-color: var(--color-nav);
   width: 100vw;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -32,8 +32,6 @@ span.logo-medium {
   padding-top: 3rem;
   padding-right: 4rem;
 }
-
-
 /*container perfile */
 .portafolio-perfile {
   color: var(--color-text2);
@@ -63,17 +61,25 @@ span.logo-medium {
 .portafolio-perfile p {
   color: var(--color-text2);
   text-align: center;
-  padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
+/*Icons Redes*/
+.icons{
+  font-size: 30px;
+  display: flex;
+  margin-left: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* links */
 .portafolio__links {
   list-style: none;
   position: relative;
   padding-left: 1.898em;
   padding-right: 1em;
+  margin-top: 0;
   font-size: 1.875em;
 }
-
 p span {
   color: var(--primary-color);
   font-weight: bold;

@@ -4,6 +4,8 @@ import { Link, Outlet } from "@remix-run/react";
 import portafolio from "../../public/svg/icon-portafolio.svg";
 import navigationstylesUrl from "~/stylesGlobal/navigation.css";
 import Me from "../../public/img/about.jpg";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { BiLogoGmail } from "react-icons/bi";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: navigationstylesUrl },
@@ -32,18 +34,42 @@ export default function PortafolioRoute() {
               <br />
               <span>Junior Developer</span>
             </p>
+            <div>
+              <ul className="icons">
+                <li>
+                  <Link to=".">
+                    <BiLogoGmail />
+                  </Link>
+                </li>
+                <li>
+                  <Link to=".">
+                    <FaLinkedin />
+                  </Link>
+                </li>
+                <li>
+                  <Link to=".">
+                    <FaGithub />
+                  </Link>
+                </li>
+                <li>
+                  <Link to=".">
+                    <FaTwitter />
+                  </Link>
+                </li>
+              </ul>
+            </div>
             <ul className="portafolio__links">
               <li className="column hover">
                 <Link to=".">
                   <button>
-                    <span></span>Portafolio
+                    <span></span>Home
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to="about">
                   <button>
-                    <span></span>Acerca
+                    <span></span>Acerca de mi
                   </button>
                 </Link>
               </li>
