@@ -2,6 +2,8 @@ import experiencia from "../../public/img/React.png";
 import { LinksFunction } from "@remix-run/node";
 import stylesUrl from "./styles/experiencia.css";
 
+import { RiPagesFill } from "react-icons/ri";
+
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
 ];
@@ -27,6 +29,9 @@ export default function ExperienciaPortafolioRoute() {
             -Pagina web Realizada con las siguentes herramientas: Html, Css,
             JavaScript.
           </p>
+          <a className="" href="https://cascada-yosondua-no-oficial.netlify.app/">
+            <RiPagesFill />
+          </a>
         </section>
         <section>
           <h3>
@@ -39,11 +44,9 @@ export default function ExperienciaPortafolioRoute() {
           </p>
           <p>-Fueron realizadas con tecnologias: React( Remix), React js.</p>
         </section>
-        <img 
-          src={experiencia} 
-          alt="Código" 
-          className="experiencia-img"
-           />
+        <a className="" href="https://publivalle-dania.netlify.app/">
+            <RiPagesFill />
+          </a>
       </main>
     </div>
   );

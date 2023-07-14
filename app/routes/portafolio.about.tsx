@@ -30,7 +30,7 @@ export default function AboutPortafolioRoute() {
                   y perseverancia.
                 </p>
               </div>
-              <div className="links">
+              <div className="card-links">
                 <a href="#">
                   <FaTwitter />
                 </a>
@@ -47,21 +47,32 @@ export default function AboutPortafolioRoute() {
             <div className="card-content">
               <div className="card-conteiner">
                 <span></span>
-                <div className="img">
-                  <img src={about} alt="Portafolio" />
-                </div>
+                <h6>Experiencias</h6>
                 <p>
-                  Soy una persona que precisa instrucciones organizadas para que
-                  un ordenador pueda ejecutar sistemas, programas y aplicaciones
-                  que sean eficaces, accesibles y afable. Con atención, esfuerzo
-                  y perseverancia.
+                  Me estoy enfocando en aprender nuevas tecnoloías, actualmente
+                  Remix es una de ellas, éste Portafolio esta desarrollado en
+                  Remix-tsx.
+                </p>
+                <h6>Disponibilidad y compromiso </h6>
+                <p>
+                  Cuento con toda la disponibilidad de esfuerzo, dedicación y
+                  tiempo. Enfrento situaciones poco comunes, bajo presión
+                  desarrollando habilidades tanto responsabilidad para un
+                  crecimiento propio, con una curva de aprendizaje corta.
+                </p>
+                <h6>Aptitudes</h6>
+                <p>
+                  Siendo autodidacta, responsable con dedicación para trabajar
+                  en equipo de manera organizada, cumpliendo con cada fragmento
+                  referente al trabajo; realizando tareas de manera efectiva en
+                  tiempo y forma.
                 </p>
               </div>
-              <div className="links">
+              <div className="card-links">
                 <a href="#">
                   <FaTwitter />
                 </a>
-                <a href="#">
+                <a href=" https://github.com/programmer-lopez/portafolio-html.git">
                   <FaGithub />
                 </a>
                 <a href="#">
@@ -71,28 +82,6 @@ export default function AboutPortafolioRoute() {
             </div>
           </div>
         </div>
-        <h4>INGENIERO EN SISTEMAS COMPUTACIONALES</h4>
-        <h6>EXPERIENCIA</h6>
-        <p>
-          Me estoy enfocando en aprender nuevas tecnoloías, actualmente Remix es
-          una de ellas, éste Portafolio esta desarrollado en Remix-tsx.
-        </p>
-        <a href=" https://github.com/programmer-lopez/portafolio-html.git">
-          Git del proyecto
-        </a>
-        <h3>Disponibilidad y compromiso </h3>
-        <p>
-          Cuento con toda la disponibilidad de esfuerzo, dedicación y tiempo.
-          Enfrento situaciones poco comunes, bajo presión desarrollando
-          habilidades tanto responsabilidad para un crecimiento propio, con una
-          curva de aprendizaje corta.
-        </p>
-        <h3>APTITUDES</h3>
-        <p>
-          Siendo autodidacta, responsable con dedicación para trabajar en equipo
-          de manera organizada, cumpliendo con cada fragmento referente al
-          trabajo; realizando tareas de manera efectiva en tiempo y forma.
-        </p>
       </div>
     </main>
   );

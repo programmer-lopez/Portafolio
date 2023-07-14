@@ -4,6 +4,7 @@
   display: flex;
   margin-left: 10rem;
   padding-top: 5rem;
+  justify-content: center;
 }
 .portafolio__container-logo img {
   width: 40px;

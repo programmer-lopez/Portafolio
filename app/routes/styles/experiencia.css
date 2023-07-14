@@ -2,3 +2,10 @@ img{
     width: 100px;
    height: auto;
 }
+
+a{
+    font-size: 36px;
+}
+a:hover{
+    color: var(--blanco);
+}
