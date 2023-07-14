@@ -3,6 +3,7 @@ import { LinksFunction } from "@remix-run/node";
 
 import stylesUrl from "./styles/about.css";
 import about from "../../public/img/about.jpg";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -12,19 +13,63 @@ export default function AboutPortafolioRoute() {
     <main>
       <div className="about-content">
         <Links />
+        <h2 style={{ textAlign: "center" }}>Desarrollador de Software</h2>
+        <h5 style={{ textAlign: "center" }}>Sobre mí</h5>
         <div className="about-container">
-          <div>
-            <h2>Desarrollador de Software</h2>
-            <hr />
-            <h5>Sobre mí</h5>
-            <p>
-              Soy una persona que precisa instrucciones organizadas para que un
-              ordenador pueda ejecutar sistemas, programas y aplicaciones que
-              sean eficaces, accesibles y afable. Con atención, esfuerzo y
-              perseverancia.
-            </p>
+          <div className="card">
+            <div className="card-content">
+              <div className="card-conteiner">
+                <span></span>
+                <div className="img">
+                  <img src={about} alt="Portafolio" />
+                </div>
+                <p>
+                  Soy una persona que precisa instrucciones organizadas para que
+                  un ordenador pueda ejecutar sistemas, programas y aplicaciones
+                  que sean eficaces, accesibles y afable. Con atención, esfuerzo
+                  y perseverancia.
+                </p>
+              </div>
+              <div className="links">
+                <a href="#">
+                  <FaTwitter />
+                </a>
+                <a href="#">
+                  <FaGithub />
+                </a>
+                <a href="#">
+                  <FaLinkedin />
+                </a>
+              </div>
+            </div>
           </div>
-          <img src={about} alt="Portafolio" className="portafolio-logo" />
+          <div className="card">
+            <div className="card-content">
+              <div className="card-conteiner">
+                <span></span>
+                <div className="img">
+                  <img src={about} alt="Portafolio" />
+                </div>
+                <p>
+                  Soy una persona que precisa instrucciones organizadas para que
+                  un ordenador pueda ejecutar sistemas, programas y aplicaciones
+                  que sean eficaces, accesibles y afable. Con atención, esfuerzo
+                  y perseverancia.
+                </p>
+              </div>
+              <div className="links">
+                <a href="#">
+                  <FaTwitter />
+                </a>
+                <a href="#">
+                  <FaGithub />
+                </a>
+                <a href="#">
+                  <FaLinkedin />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <h4>INGENIERO EN SISTEMAS COMPUTACIONALES</h4>
         <h6>EXPERIENCIA</h6>
