@@ -44,7 +44,7 @@ export default function ExperienciaPortafolioRoute() {
           </p>
           <p>-Fueron realizadas con tecnologias: React( Remix), React js.</p>
         </section>
-        <a className="" href="https://publivalle-dania.netlify.app/">
+        <a className="" href="https://mercado-libre-clone.netlify.app/">
             <RiPagesFill />
           </a>
       </main>
