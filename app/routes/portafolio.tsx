@@ -29,7 +29,7 @@ export default function PortafolioRoute() {
             <img src={Me} alt="Acerca-de-Mi" />
             <h5 className="portafolio-perfile-h5">Marcos Lopez</h5>
             <p>
-              Soy ingeniero en sistemas computacionales, enfocado en Desarrollo
+              Ingeniero en sistemas computacionales, enfocado en Desarrollo
               de Software.
               <br />
               <span>Junior Developer</span>
