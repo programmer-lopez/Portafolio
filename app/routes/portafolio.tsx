@@ -34,10 +34,15 @@ export default function PortafolioRoute() {
               <br />
               <span>Junior Developer</span>
             </p>
+
+
+
+
+            
             <div className="portafolio-card-content">
               <ul className="portafolio-card-links">
                 <li>
-                  <Link to=".">
+                  <Link to="mailto:ing.marcoslopezsanchez@gmail.com?Subject=Oferta%20de%20trabajo">
                     <BiLogoGmail />
                   </Link>
                 </li>
