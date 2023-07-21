@@ -17,8 +17,8 @@
   position: fixed;
   background-color: var(--color-nav);
   width: 100vw;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 23px;
+  padding-bottom: 16px;
   align-items: flex-start;
   border-bottom: 1px solid var(--color-border);
 }
@@ -65,12 +65,29 @@ span.logo-medium {
   font-size: 16px;
 }
 /*Icons Redes*/
-.icons{
+.portafolio-card-links{
   font-size: 30px;
   display: flex;
   margin-left: 80px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.portafolio-card-content:hover .portafolio-card-links{
+  right: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+.portafolio-card-content .portafolio-card-links li:nth-child(1):hover{
+  color: #ffff00;
+}
+.portafolio-card-content .portafolio-card-links li:nth-child(2):hover{
+  color: #0a66c2;
+}
+.portafolio-card-content .portafolio-card-links li:nth-child(3):hover{
+  color: #000000;
+}
+.portafolio-card-content .portafolio-card-links li:nth-child(4):hover{
+  color: #1d9bf0;
 }
 /* links */
 .portafolio__links {
