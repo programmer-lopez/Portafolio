@@ -34,10 +34,10 @@ export default function AboutPortafolioRoute() {
                 <a href="#">
                   <FaTwitter />
                 </a>
-                <a href="#">
+                <a href="https://github.com/programmer-lopez/portafolio-html.git">
                   <FaGithub />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/marcos-lopez-sanchez-455271219/">
                   <FaLinkedin />
                 </a>
               </div>
@@ -65,10 +65,10 @@ export default function AboutPortafolioRoute() {
                 <a href="#">
                   <FaTwitter />
                 </a>
-                <a href=" https://github.com/programmer-lopez/portafolio-html.git">
+                <a href="https://github.com/programmer-lopez/portafolio-html.git">
                   <FaGithub />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/marcos-lopez-sanchez-455271219/">
                   <FaLinkedin />
                 </a>
               </div>

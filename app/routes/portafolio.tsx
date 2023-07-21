@@ -9,6 +9,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: navigationstylesUrl },
+  {rel:"links", href:"www.linkedin.com/in/marcos-lopez-sanchez-455271219"},
 ];
 export default function PortafolioRoute() {
   return (
@@ -34,11 +35,6 @@ export default function PortafolioRoute() {
               <br />
               <span>Junior Developer</span>
             </p>
-
-
-
-
-            
             <div className="portafolio-card-content">
               <ul className="portafolio-card-links">
                 <li>
@@ -47,12 +43,12 @@ export default function PortafolioRoute() {
                   </Link>
                 </li>
                 <li>
-                  <Link to=".">
+                  <Link to="https://www.linkedin.com/in/marcos-lopez-sanchez-455271219/">
                     <FaLinkedin />
                   </Link>
                 </li>
                 <li>
-                  <Link to=".">
+                  <Link to="https://github.com/programmer-lopez/portafolio-html.git">
                     <FaGithub />
                   </Link>
                 </li>
@@ -102,3 +98,4 @@ export default function PortafolioRoute() {
     </div>
   );
 }
+
