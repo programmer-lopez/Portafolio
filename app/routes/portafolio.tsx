@@ -8,8 +8,7 @@ import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: navigationstylesUrl },
-  {rel:"links", href:"www.linkedin.com/in/marcos-lopez-sanchez-455271219"},
+  { rel: "stylesheet", href: navigationstylesUrl }
 ];
 export default function PortafolioRoute() {
   return (
