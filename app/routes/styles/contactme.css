@@ -4,3 +4,9 @@ main.portafolio-main {
 video#myVideo {
     height: 84.76554vh;
 }
+.button{
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
