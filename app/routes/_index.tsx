@@ -8,10 +8,8 @@ export const links: LinksFunction = () => [
 
 export default function IndexRoute() {
   return (
-    
     <div className="container">
       <div className="content">
-        
         <h1>
           <span>Marcos Lopez.</span>
         </h1>
@@ -25,7 +23,11 @@ export default function IndexRoute() {
               </Link>
             </li>
             <li className="row hover">
-              <Link to="pdf">
+              <Link
+                to="https://drive.google.com/file/d/1I6Gz0FbIle17-6rES018pqQUAK4lWM3f/view?usp=drive_link"
+                download="CV"
+                reloadDocument
+              >
                 <button>
                   <span></span>CV.pdf
                 </button>
