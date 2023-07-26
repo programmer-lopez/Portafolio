@@ -3,6 +3,7 @@ main.portafolio-main {
 }
 video#myVideo {
     height: 84.76554vh;
+    object-fit: cover;
 }
 .button{
   position: fixed;
