@@ -35,6 +35,7 @@ export default function App() {
       <head>
         <Meta />
         <Links />
+        <meta name="google-site-verification" content="axgEwjOvGX8m2Aag850jmd45ATtOWJ8dYhq7rriBCro" />
       </head>
       <body>
         <Outlet />
