@@ -56,10 +56,11 @@ export default function AboutPortafolioRoute() {
                 <h6>Disponibilidad y compromiso </h6>
                 <p>
                   Cuento con toda la disponibilidad de esfuerzo, dedicación y
-                  tiempo. Enfrento situaciones comunes dentro del desarrollo de software,
-                   habilidades para trabajar  bajo presión tanto responsabilidad para un
-                  crecimiento propio, con una curva de aprendizaje descendente.
-                </p>                
+                  tiempo. Enfrento situaciones comunes dentro del desarrollo de
+                  software, habilidades para trabajar bajo presión tanto
+                  responsabilidad para un crecimiento propio, con una curva de
+                  aprendizaje descendente.
+                </p>
               </div>
               <div className="card-links">
                 <a href="#">
