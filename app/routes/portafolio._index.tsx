@@ -1,4 +1,3 @@
-import { Links } from "@remix-run/react";
 import { LinksFunction } from "@remix-run/node";
 import perfile from "../../public/img/perfile.png";
 import stylesUrl from "./styles/portaIndex.css";
@@ -15,7 +14,7 @@ export default function PortafolioIndexRoute() {
         <h1 style={{ textAlign: "center", color: "white" }}>
           Marcos Lopez Sanchez
         </h1>
-        <h3 style={{ textAlign: "center", color: "white" }}>
+        <h3 style={{ textAlign: "center", color: "white", marginTop: "10px",}}>
           Junior Developer
         </h3>
         <section id="portafolio_index">
@@ -60,7 +59,7 @@ export default function PortafolioIndexRoute() {
                   <div className="card-content">
                     <div className="card-conteiner">
                       <span></span>
-                      <h3 className="portafolio-h3">compromiso</h3>
+                      <h3 className="portafolio-h3">Compromiso</h3>
                       <p>
                         Enfrento situaciones poco comunes, bajo presión
                         desarrollando habilidades tanto responsabilidad para un

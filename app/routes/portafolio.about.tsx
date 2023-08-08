@@ -13,8 +13,9 @@ export default function AboutPortafolioRoute() {
     <main>
       <div className="about-content">
         <Links />
-        <h2 style={{ textAlign: "center" }}>Desarrollador de Software</h2>
-        <h5 style={{ textAlign: "center" }}>Sobre mí</h5>
+        <h1>Desarrollador de Software</h1>
+        <h2>Sobre mí</h2>
+        <h3>Desarrollador de Software  </h3>
         <div className="about-container">
           <div className="card">
             <div className="card-content">
@@ -49,7 +50,7 @@ export default function AboutPortafolioRoute() {
                 <span></span>
                 <h6>Experiencias</h6>
                 <p>
-                  Me estoy enfocando en aprender nuevas tecnoloías, actualmente
+                  Me estoy enfocando en aprender nuevas tecnologías, actualmente
                   Remix es una de ellas, éste Portafolio esta desarrollado en
                   Remix-tsx.
                 </p>

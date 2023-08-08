@@ -1,3 +1,7 @@
+h1,h2,h3{
+  text-align: center;
+  color: var(--blanco);
+}
 .about-container img {
     width: 150px;
     height: auto;
@@ -26,7 +30,7 @@
   overflow: hidden;
   text-align: center;
   padding: 20px;
-  background-color: var(--color-nav);
+  background-color: var(--color-card);
 }
 .card .card-content .img{
   height: 50%;
