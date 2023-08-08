@@ -19,35 +19,42 @@ export default function ExperienciaPortafolioRoute() {
         <hr />
         <section>
           <div className="container">
+            {/* aqui inicia carousel */}
             <div className="card">
               <h2 className="title">
                 <span>Cascada Santiago Yosondúa</span>
               </h2>
               <div className="bar">
-                <div className="emptybar"></div>
+                <div className="emptybar"></div>                
+                <div className="filledbar"></div>                
+              </div>
+              <div className="subtitle">
+              <p>
+                  -Pagina web Realizada con las siguentes herramientas: Html,
+                  Css, JavaScript.
+                </p>
+
                 <p>
                   -Pagina web Realizada con las siguentes herramientas: Html,
                   Css, JavaScript.
                 </p>
-                <p>
-                  -Pagina web Realizada con las siguentes herramientas: Html,
-                  Css, JavaScript.
-                </p>
-                <div className="filledbar"></div>
+              </div>
+              
+                
+              <div className="circle">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <circle className="stroke" cx={60} cy={98} r={50} />
+                </svg>
                 <a
-                  className=""
+                  className="icon"
                   href="https://cascada-yosondua-no-oficial.netlify.app/"
                 >
                   <RiPagesFill />
                 </a>
               </div>
-              <div className="circle">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <circle className="stroke" cx={60} cy={98} r={50} />
-                </svg>
-              </div>
             </div>
-            <div className="card">
+            
+            {/* <div className="card">
               <h2 className="title">
                 <span>Publivalle Dania</span>
               </h2>
@@ -101,7 +108,7 @@ export default function ExperienciaPortafolioRoute() {
                   <circle className="stroke" cx={60} cy={98} r={50} />
                 </svg>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>

@@ -1,12 +1,8 @@
 .content h1,
 h2,
-h3 {
+h3,p {
   text-align: center;
-  color:var(--blanco);  /**/
-}
-h4,
-p {
-  text-align: center;
+  color:var(--blanco);
 }
 img {
   width: 100px;
@@ -30,8 +26,9 @@ a:hover {
 }
 .card {
   display: flex;
-  height: 280px;
-  width: 200px;
+  flex-direction: column;
+  height: 350px;
+  width: 250px;
   background-color: #17141d;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
@@ -55,8 +52,11 @@ a:hover {
 }
 
 .title {
-  align-items: center;
   font-weight: 300;
+  margin: 15px;
+}
+.subtitle {
+  font-weight: 30;
   margin: 15px;
 }
 .bar {
@@ -68,7 +68,7 @@ a:hover {
 }
 .emptybar {
   background-color: #2e3033;
-  width: 90%;
+  width: 130%;
   height: 100%;
 }
 .filledbar {
@@ -92,8 +92,13 @@ a:hover {
 }
 .circle {
   position: absolute;
-  top: 180px;
+  top: 280px;
   left: calc(50% - 60px);
+}
+.circle .icon{
+  position: absolute;
+  top: 80px;
+  left: calc(35% - 60px);
 }
 
 .stroke {
