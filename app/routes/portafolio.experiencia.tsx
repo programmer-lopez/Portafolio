@@ -11,8 +11,9 @@ export default function ExperienciaPortafolioRoute() {
   return (
     <div>
       <h1>Experiencia</h1>
-      <hr />
       <main>
+      
+      <hr />
         <section>
           <div className="container">
             <div className="card">
@@ -25,7 +26,7 @@ export default function ExperienciaPortafolioRoute() {
               </div>
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <circle className="stroke" cx={60} cy={60} r={50} />
+                  <circle className="stroke" cx={60} cy={98} r={50} />
                 </svg>
               </div>
             </div>
