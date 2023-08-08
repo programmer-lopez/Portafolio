@@ -26,14 +26,15 @@
   overflow: hidden;
   text-align: center;
   padding: 30px;
-  background-color: var(--color-card);
+  background-color: var(--perfile);
 }
 .card .card-content p {
   margin-top: 40px;
+  color: var(--blanco);
 }
 .portafolio-h3 {
   text-align: center;
-  color: var(--color-text1);
+  color: var(--blanco);
   padding-bottom: 10%;
   border-bottom: 1px solid var(--color-border);
 }

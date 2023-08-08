@@ -28,7 +28,7 @@ export default function PortafolioIndexRoute() {
                       <span></span>
                       <h3 className="portafolio-h3">Habilidades</h3>
                       <p>
-                        <span style={{color: "black", fontSize:"20px",}}>Experiencia en:</span>
+                        <span style={{fontSize:"20px",}}>Experiencia en:</span>
                         <br/><br /> <FaReact style={{fontSize:"30px"}}/>
                         React <br />
                         <FaJava style={{fontSize:"30px"}}/>

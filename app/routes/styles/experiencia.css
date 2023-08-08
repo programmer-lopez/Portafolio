@@ -11,9 +11,6 @@ img {
 a {
   font-size: 30px;
 }
-a:hover {
-  color: var(--blanco);
-}
 /* Carousel*/
 .card h2{
   color: var(--blanco);
@@ -29,7 +26,7 @@ a:hover {
   flex-direction: column;
   height: 350px;
   width: 250px;
-  background-color: #17141d;
+  background-color:var(--perfile);
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
   transition: 0.4s ease-out;
@@ -96,9 +93,13 @@ a:hover {
   left: calc(50% - 60px);
 }
 .circle .icon{
+  color: var(--blanco);
   position: absolute;
   top: 80px;
   left: calc(35% - 60px);
+}
+.circle .icon:hover{
+  color: var(--color-background);
 }
 
 .stroke {

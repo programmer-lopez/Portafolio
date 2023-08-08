@@ -24,7 +24,7 @@ export default function AboutPortafolioRoute() {
                 <div className="img">
                   <img src={about} alt="Portafolio" />
                 </div>
-                <p>
+                <p style={{color:"white"}}>
                   Soy una persona que precisa instrucciones organizadas para que
                   un ordenador pueda ejecutar sistemas, programas y aplicaciones
                   que sean eficaces, accesibles y afable. Con atención, esfuerzo
@@ -48,14 +48,14 @@ export default function AboutPortafolioRoute() {
             <div className="card-content">
               <div className="card-conteiner">
                 <span></span>
-                <h6>Experiencias</h6>
-                <p>
+                <h4>Experiencias</h4>
+                <p style={{color:"white"}}>
                   Me estoy enfocando en aprender nuevas tecnologías, actualmente
                   Remix es una de ellas, éste Portafolio esta desarrollado en
                   Remix-tsx.
                 </p>
-                <h6>Disponibilidad y compromiso </h6>
-                <p>
+                <h4>Disponibilidad y compromiso </h4>
+                <p style={{color:"white"}}>
                   Cuento con toda la disponibilidad de esfuerzo, dedicación y
                   tiempo. Enfrento situaciones comunes dentro del desarrollo de
                   software, habilidades para trabajar bajo presión tanto

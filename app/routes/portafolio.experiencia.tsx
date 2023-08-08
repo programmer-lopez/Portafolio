@@ -14,7 +14,7 @@ export default function ExperienciaPortafolioRoute() {
       <h1>Experiencia</h1>
       <h2 className="Subtitle">Clonaciones</h2>
       <p>
-        La experiencia obtenida es por el aprendizaje General de las tecnología.
+        La experiencia obtenida es por el aprendizaje General de las tecnologías.
       </p>
         <hr />
         <section>
@@ -33,14 +33,7 @@ export default function ExperienciaPortafolioRoute() {
                   -Pagina web Realizada con las siguentes herramientas: Html,
                   Css, JavaScript.
                 </p>
-
-                <p>
-                  -Pagina web Realizada con las siguentes herramientas: Html,
-                  Css, JavaScript.
-                </p>
               </div>
-              
-                
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <circle className="stroke" cx={60} cy={98} r={50} />
@@ -48,6 +41,86 @@ export default function ExperienciaPortafolioRoute() {
                 <a
                   className="icon"
                   href="https://cascada-yosondua-no-oficial.netlify.app/"
+                >
+                  <RiPagesFill />
+                </a>
+              </div>
+            </div>
+            {/* Card 2 */}
+            <div className="card">
+              <h2 className="title">
+                <span>Pagina Publivalle Dania</span>
+              </h2>
+              <div className="bar">
+                <div className="emptybar"></div>                
+                <div className="filledbar"></div>                
+              </div>
+              <div className="subtitle">
+              <p>
+                  -Pagina web Realizada con las siguentes herramientas: Html,
+                  Css, JavaScript.
+                </p>
+              </div>
+              <div className="circle">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <circle className="stroke" cx={60} cy={98} r={50} />
+                </svg>
+                <a
+                  className="icon"
+                  href="https://publivalle-dania.netlify.app/"
+                >
+                  <RiPagesFill />
+                </a>
+              </div>
+            </div>
+            {/* Card 3 */}
+            <div className="card">
+              <h2 className="title">
+                <span>Clone Mecado Libre</span>
+              </h2>
+              <div className="bar">
+                <div className="emptybar"></div>                
+                <div className="filledbar"></div>                
+              </div>
+              <div className="subtitle">
+              <p>
+                  -Pagina web Realizada con las siguentes herramientas: Html,
+                  Css, JavaScript.
+                </p>
+              </div>
+              <div className="circle">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <circle className="stroke" cx={60} cy={98} r={50} />
+                </svg>
+                <a
+                  className="icon"
+                  href="https://mercado-libre-clone.netlify.app/"
+                >
+                  <RiPagesFill />
+                </a>
+              </div>
+            </div>
+            {/* Card 4 */}
+            <div className="card">
+              <h2 className="title">
+                <span>Github: Codigo de este Portafolio</span>
+              </h2>
+              <div className="bar">
+                <div className="emptybar"></div>                
+                <div className="filledbar"></div>                
+              </div>
+              <div className="subtitle">
+              <p>
+                  -Pagina Realizada con documentacion de  <a href="https://remix.run/">https://remix.run/</a>.
+                </p>
+              </div>
+              <div className="circle">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <circle className="stroke" cx={60} cy={98} r={50} />
+                </svg>
+                <a
+                  className="icon"
+                  href="https://github.com/programmer-lopez/portafolio-html"
                 >
                   <RiPagesFill />
                 </a>

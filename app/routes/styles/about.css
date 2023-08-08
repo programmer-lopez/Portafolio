@@ -2,6 +2,9 @@ h1,h2,h3{
   text-align: center;
   color: var(--blanco);
 }
+h4{
+  color: var(--color-nav);
+}
 .about-container img {
     width: 150px;
     height: auto;
@@ -17,7 +20,7 @@ h1,h2,h3{
   width: 350px;
   height: 450px;
   border-radius: 10px;
-  box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+  box-shadow: -1rem 0 3rem #000;
   margin: 20px;
 }
 .card .card-content{
@@ -30,7 +33,7 @@ h1,h2,h3{
   overflow: hidden;
   text-align: center;
   padding: 20px;
-  background-color: var(--color-card);
+  background-color: var(--perfile);
 }
 .card .card-content .img{
   height: 50%;
