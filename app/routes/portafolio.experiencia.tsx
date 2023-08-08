@@ -1,5 +1,9 @@
 import { LinksFunction } from "@remix-run/node";
 import stylesUrl from "./styles/experiencia.css";
+import Cascada from "../../public/svg/icon-portafolio.svg";
+import Publivalle from "../../public/svg/icon-portafolio.svg";
+import Mercado from "../../public/svg/icon-portafolio.svg";
+import Portafolio from "../../public/svg/icon-portafolio.svg";
 
 import { RiPagesFill } from "react-icons/ri";
 
@@ -34,9 +38,10 @@ export default function ExperienciaPortafolioRoute() {
                   Css, JavaScript.
                 </p>
               </div>
-              <div className="circle">
+              <div className="circle">              
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <circle className="stroke" cx={60} cy={98} r={50} />
+                  <img className="perfile-img" src={Cascada} alt="Marcos_Lopez" />
                 </svg>
                 <a
                   className="icon"
@@ -64,6 +69,7 @@ export default function ExperienciaPortafolioRoute() {
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <circle className="stroke" cx={60} cy={98} r={50} />
+                  <img className="perfile-img" src={Publivalle} alt="Marcos_Lopez" />
                 </svg>
                 <a
                   className="icon"
@@ -76,7 +82,7 @@ export default function ExperienciaPortafolioRoute() {
             {/* Card 3 */}
             <div className="card">
               <h2 className="title">
-                <span>Clone Mecado Libre</span>
+                <span>Clone Mercado Libre</span>
               </h2>
               <div className="bar">
                 <div className="emptybar"></div>                
@@ -91,6 +97,7 @@ export default function ExperienciaPortafolioRoute() {
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <circle className="stroke" cx={60} cy={98} r={50} />
+                  <img className="perfile-img" src={Mercado} alt="Marcos_Lopez" />
                 </svg>
                 <a
                   className="icon"
@@ -117,6 +124,7 @@ export default function ExperienciaPortafolioRoute() {
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <circle className="stroke" cx={60} cy={98} r={50} />
+                  <img className="perfile-img" src={Portafolio} alt="Marcos_Lopez" />
                 </svg>
                 <a
                   className="icon"
