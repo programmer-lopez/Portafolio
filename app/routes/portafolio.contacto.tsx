@@ -1,9 +1,9 @@
 import { LinksFunction } from "@remix-run/node";
-import stylesUrl from "./styles/contactme.css";
+import stylesUrl from "./styles/contactame.css";
 import { Link } from "@remix-run/react";
 
-import video from "../../public/videos/Portafolio.mp4";
-import Junior from "../../public//img/Junior.svg"
+import Junior from "../../public/img/Junior.svg";
+import Correo from "../../public/img/correo.png";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -12,40 +12,40 @@ export const links: LinksFunction = () => [
 export default function ContactoPortafolioRoute() {
   return (
     <main>
-      <div className="contactame">
-        <div className="container">
-          <h1>Desarrolador Junior</h1>
-          <h2>Marcos Lopez Sanchez</h2>
-          <h4>PORTAFOLIO CONTACTO</h4>
-          {/*car 1*/}
-          <div className="card">
-           <img src={Junior} alt="" />
+      <section>
+        <div className="portafolio_contactame">
+          <div className="contactame_container">
+            <h1 className="encabezado">Desarrolador Junior</h1>
+            <h2 className="encabezado">Marcos Lopez Sanchez</h2>
+            <h4 className="encabezado">PORTAFOLIO CONTACTO</h4>
+            <div className="contactame_content" style={{margin:"100px"}}>
+              {/* car 1 */}
+              <div className="card">
+                <img style={{width:"300px", marginTop:"-70px"}} src={Junior} alt="" />
+              </div>
+              {/* car 2 */}
+              <div className="card">
+                <img style={{width:"300px"}} src={Junior} alt="" />
+              </div>
+              {/* car 3 */}
+              <div className="card">
+                <img style={{width:"300px", marginTop:"70px"}} src={Correo} alt="" />
+              </div>
+            </div>
           </div>
-          {/*car 2*/}
-          <div className="card">
-           <img src={Junior} alt="" />
-          </div>
-          {/*car 3*/}
-          <div className="card">
-           <img src={Junior} alt="" />
-          </div>
+          {/* Inicio del boton curriculum viate */}
+          <Link
+            className="button"
+            to="https://drive.google.com/file/d/1I6Gz0FbIle17-6rES018pqQUAK4lWM3f/view?usp=drive_link"
+            download="CV"
+            reloadDocument
+          >
+            <button>
+              <span></span>CV.pdf
+            </button>
+          </Link>
         </div>
-        <Link
-          className="button"
-          to="https://drive.google.com/file/d/1I6Gz0FbIle17-6rES018pqQUAK4lWM3f/view?usp=drive_link"
-          download="CV"
-          reloadDocument
-        >
-          <button>
-            <span></span>CV.pdf
-          </button>
-        </Link>
-      </div>
-      {/* <div className="video">
-        <video autoPlay muted loop id="myVideo">
-          <source src={video} type="video/mp4" />
-        </video>
-      </div> */}
+      </section>
     </main>
   );
 }

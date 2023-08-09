@@ -14,29 +14,30 @@ export const links: LinksFunction = () => [
 export default function ExperienciaPortafolioRoute() {
   return (
     <div>
-      <main className="content">
+      <main className="experiencia_container">
       <h1>Experiencia</h1>
-      <h2 className="Subtitle">Clonaciones</h2>
+      <h2>Clonaciones</h2>
       <p>
         La experiencia obtenida es por el aprendizaje General de las tecnologías.
       </p>
         <hr />
         <section>
-          <div className="container">
+          <div className="experiencia_content">
             {/* aqui inicia carousel */}
             <div className="card">
-              <h2 className="title">
+              <h2>
                 <span>Cascada Santiago Yosondúa</span>
               </h2>
               <div className="bar">
                 <div className="emptybar"></div>                
-                <div className="filledbar"></div>                
-              </div>
-              <div className="subtitle">
-              <p>
+                <div className="filledbar"></div> 
+                <p>
                   -Pagina web Realizada con las siguentes herramientas: Html,
                   Css, JavaScript.
-                </p>
+                </p>               
+              </div>
+              <div>
+              
               </div>
               <div className="circle">              
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -53,18 +54,19 @@ export default function ExperienciaPortafolioRoute() {
             </div>
             {/* Card 2 */}
             <div className="card">
-              <h2 className="title">
+              <h2>
                 <span>Pagina Publivalle Dania</span>
               </h2>
               <div className="bar">
                 <div className="emptybar"></div>                
-                <div className="filledbar"></div>                
-              </div>
-              <div className="subtitle">
-              <p>
+                <div className="filledbar"></div> 
+                <p>
                   -Pagina web Realizada con las siguentes herramientas: Html,
                   Css, JavaScript.
-                </p>
+                </p>               
+              </div>
+              <div>
+              
               </div>
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -81,18 +83,19 @@ export default function ExperienciaPortafolioRoute() {
             </div>
             {/* Card 3 */}
             <div className="card">
-              <h2 className="title">
-                <span>Clone Mercado Libre</span>
+              <h2>
+                <span>netlify Clone de Mercado Libre</span>
               </h2>
               <div className="bar">
                 <div className="emptybar"></div>                
-                <div className="filledbar"></div>                
-              </div>
-              <div className="subtitle">
-              <p>
+                <div className="filledbar"></div>
+                <p>
                   -Pagina web Realizada con las siguentes herramientas: Html,
                   Css, JavaScript.
-                </p>
+                </p>              
+              </div>
+              <div>
+              
               </div>
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -109,17 +112,18 @@ export default function ExperienciaPortafolioRoute() {
             </div>
             {/* Card 4 */}
             <div className="card">
-              <h2 className="title">
+              <h2>
                 <span>Github: Codigo de este Portafolio</span>
               </h2>
               <div className="bar">
                 <div className="emptybar"></div>                
-                <div className="filledbar"></div>                
+                <div className="filledbar"></div> 
+                <p>
+                  -Pagina Realizada con documentacion de  <a className="remix" href="https://remix.run/">https://remix.run/</a>.
+                </p>               
               </div>
-              <div className="subtitle">
-              <p>
-                  -Pagina Realizada con documentacion de  <a href="https://remix.run/">https://remix.run/</a>.
-                </p>
+              <div>
+              
               </div>
               <div className="circle">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
