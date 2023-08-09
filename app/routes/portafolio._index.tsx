@@ -3,6 +3,9 @@ import perfile from "../../public/img/perfile.png";
 import stylesUrl from "./styles/portaIndex.css";
 import { FaReact, FaJava, FaFileCode, FaMdb } from "react-icons/fa6";
 
+import React from "react";
+import {Avatar} from "@nextui-org/react";
+
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
 ];
@@ -14,7 +17,7 @@ export default function PortafolioIndexRoute() {
         <h1 style={{ textAlign: "center", color: "white" }}>
           Marcos Lopez Sanchez
         </h1>
-        <h3 style={{ textAlign: "center", color: "white", marginTop: "10px",}}>
+        <h3 style={{ textAlign: "center", color: "white", marginTop: "10px" }}>
           Junior Developer
         </h3>
         <section id="portafolio_index">
@@ -28,15 +31,18 @@ export default function PortafolioIndexRoute() {
                       <span></span>
                       <h3 className="portafolio-h3">Habilidades</h3>
                       <p>
-                        <span style={{fontSize:"20px",}}>Experiencia en:</span>
-                        <br/><br /> <FaReact style={{fontSize:"30px"}}/>
+                        <span style={{ fontSize: "20px" }}>
+                          Experiencia en:
+                        </span>
+                        <br />
+                        <br /> <FaReact style={{ fontSize: "30px" }} />
                         React <br />
-                        <FaJava style={{fontSize:"30px"}}/>
+                        <FaJava style={{ fontSize: "30px" }} />
                         java <br />
-                        <FaFileCode style={{fontSize:"30px"}} />
+                        <FaFileCode style={{ fontSize: "30px" }} />
                         Spring Boot
                         <br />
-                        <FaMdb style={{fontSize:"30px"}} /> Mongo DB
+                        <FaMdb style={{ fontSize: "30px" }} /> Mongo DB
                       </p>
                     </div>
                   </div>
@@ -73,6 +79,38 @@ export default function PortafolioIndexRoute() {
             </div>
           </div>
         </section>
+        <div className="flex gap-4 items-center">
+          <Avatar
+            isBordered
+            color="default"
+            src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
+          />
+          <Avatar
+            isBordered
+            color="primary"
+            src="https://i.pravatar.cc/150?u=a04258a2462d826712d"
+          />
+          <Avatar
+            isBordered
+            color="secondary"
+            src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+          />
+          <Avatar
+            isBordered
+            color="success"
+            src="https://i.pravatar.cc/150?u=a04258114e29026302d"
+          />
+          <Avatar
+            isBordered
+            color="warning"
+            src="https://i.pravatar.cc/150?u=a04258114e29026702d"
+          />
+          <Avatar
+            isBordered
+            color="danger"
+            src="https://i.pravatar.cc/150?u=a04258114e29026708c"
+          />
+        </div>
       </div>
     </main>
   );
