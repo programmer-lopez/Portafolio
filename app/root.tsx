@@ -1,11 +1,11 @@
 import type { LinksFunction, V2_MetaFunction } from "@remix-run/node";
 import { LiveReload, Outlet, Links, Meta } from "@remix-run/react";
 import stylesheet from "~/tailwind.css";
+import { NextUIProvider } from "@nextui-org/react";
 
 import globalLargeStylesUrl from "~/stylesGlobal/global-large.css";
 import globalMediumStylesUrl from "~/stylesGlobal/global-medium.css";
 import globalStylesUrl from "~/stylesGlobal/global.css";
-
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: globalStylesUrl },
@@ -44,8 +44,10 @@ export default function App() {
         />
       </head>
       <body>
-        <Outlet />
-        <LiveReload />
+        <NextUIProvider>
+          <Outlet />
+          <LiveReload />
+        </NextUIProvider>
       </body>
     </html>
   );
