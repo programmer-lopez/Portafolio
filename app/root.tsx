@@ -1,12 +1,15 @@
 import type { LinksFunction, V2_MetaFunction } from "@remix-run/node";
 import { LiveReload, Outlet, Links, Meta } from "@remix-run/react";
+import stylesheet from "~/tailwind.css";
 
 import globalLargeStylesUrl from "~/stylesGlobal/global-large.css";
 import globalMediumStylesUrl from "~/stylesGlobal/global-medium.css";
 import globalStylesUrl from "~/stylesGlobal/global.css";
 
+
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: globalStylesUrl },
+  { rel: "stylesheet", href: stylesheet },
   {
     rel: "stylesheet",
     href: globalMediumStylesUrl,
@@ -35,7 +38,10 @@ export default function App() {
       <head>
         <Meta />
         <Links />
-        <meta name="google-site-verification" content="axgEwjOvGX8m2Aag850jmd45ATtOWJ8dYhq7rriBCro" />
+        <meta
+          name="google-site-verification"
+          content="axgEwjOvGX8m2Aag850jmd45ATtOWJ8dYhq7rriBCro"
+        />
       </head>
       <body>
         <Outlet />

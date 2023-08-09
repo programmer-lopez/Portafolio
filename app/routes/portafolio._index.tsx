@@ -1,10 +1,13 @@
+{
+  /*Home*/
+}
 import { LinksFunction } from "@remix-run/node";
 import perfile from "../../public/img/perfile.png";
 import stylesUrl from "./styles/portaIndex.css";
 import { FaReact, FaJava, FaFileCode, FaMdb } from "react-icons/fa6";
 
 import React from "react";
-import {Avatar} from "@nextui-org/react";
+import { Avatar } from "@nextui-org/react";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
