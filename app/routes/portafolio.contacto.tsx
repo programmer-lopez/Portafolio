@@ -2,7 +2,8 @@ import { LinksFunction } from "@remix-run/node";
 import stylesUrl from "./styles/contactame.css";
 import { Link } from "@remix-run/react";
 
-import Junior from "../../public/img/Junior.svg";
+import CV from "../../public/img/CurriculumVitae.jpg";
+import Mac from "../../public/img/mac.png";
 import Correo from "../../public/img/correo.png";
 
 export const links: LinksFunction = () => [
@@ -18,14 +19,14 @@ export default function ContactoPortafolioRoute() {
             <h1 className="encabezado">Desarrolador Junior</h1>
             <h2 className="encabezado">Marcos Lopez Sanchez</h2>
             <h4 className="encabezado">PORTAFOLIO CONTACTO</h4>
-            <div className="contactame_content" style={{margin:"100px"}}>
+            <div className="contactame_content" style={{marginRight:"100px"}}>
               {/* car 1 */}
               <div className="card">
-                <img style={{width:"300px", marginTop:"-70px"}} src={Junior} alt="" />
+                <img style={{width:"100px",marginRight:"0", borderRadius:"10px"}} src={CV} alt="" />
               </div>
               {/* car 2 */}
               <div className="card">
-                <img style={{width:"300px"}} src={Junior} alt="" />
+                <img style={{width:"300px"}} src={Mac} alt="" />
               </div>
               {/* car 3 */}
               <div className="card">
